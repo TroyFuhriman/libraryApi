@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/troyfuhriman/source/codeworks/libraryApi/libraryApi.csproj": {}
+    "C:\\source\\codeworks\\summer2020\\csharp\\libraryApi\\libraryApi.csproj": {}
   },
   "projects": {
-    "/Users/troyfuhriman/source/codeworks/libraryApi/libraryApi.csproj": {
+    "C:\\source\\codeworks\\summer2020\\csharp\\libraryApi\\libraryApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/troyfuhriman/source/codeworks/libraryApi/libraryApi.csproj",
+        "projectUniqueName": "C:\\source\\codeworks\\summer2020\\csharp\\libraryApi\\libraryApi.csproj",
         "projectName": "libraryApi",
-        "projectPath": "/Users/troyfuhriman/source/codeworks/libraryApi/libraryApi.csproj",
-        "packagesPath": "/Users/troyfuhriman/.nuget/packages/",
-        "outputPath": "/Users/troyfuhriman/source/codeworks/libraryApi/obj/",
+        "projectPath": "C:\\source\\codeworks\\summer2020\\csharp\\libraryApi\\libraryApi.csproj",
+        "packagesPath": "C:\\Users\\littl\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\codeworks\\summer2020\\csharp\\libraryApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/troyfuhriman/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\littl\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

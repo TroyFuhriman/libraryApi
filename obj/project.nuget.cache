@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sN3/VgL/U8EQJfP6y3hu9ZXQb28kF9GhDSTnB4RLwIbpFmq2C8WOdMunJ35Xe9iVJc2tfG6Q8Wb24P3NEivjDg==",
+  "dgSpecHash": "6gJwwJHP/Ny69zLrUdW7/RfKOzQHoh5cmaTsnhPOl/I4ROh/UKz+K14yEWG+Uvn7yC44ULFe286K9x6y1zUuoA==",
   "success": true,
-  "projectFilePath": "/Users/troyfuhriman/source/codeworks/libraryApi/libraryApi.csproj",
+  "projectFilePath": "C:\\source\\codeworks\\summer2020\\csharp\\libraryApi\\libraryApi.csproj",
   "expectedPackageFiles": [
-    "/Users/troyfuhriman/.nuget/packages/dapper/2.0.35/dapper.2.0.35.nupkg.sha512",
-    "/Users/troyfuhriman/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    "C:\\Users\\littl\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
+    "C:\\Users\\littl\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
