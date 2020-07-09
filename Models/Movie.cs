@@ -3,27 +3,27 @@ using System.ComponentModel.DataAnnotations;
 
 namespace libraryApi.Models
 {
-  public class Book
+  public class Movie
   {
     [Required]
     public string Id { get; set; }
     [Required]
-    public string Author { get; set; }
+    public string Director { get; set; }
     [Required]
     public string Title { get; set; }
     [Required]
     public string Description { get; set; }
     public bool Available { get; set; }
 
-    public Book(string author, string title, string description)
+    public Movie(string director, string title, string description)
     {
       Id = Guid.NewGuid().ToString();
-      Author = author;
+      Director = director;
       Title = title;
       Description = description;
       Available = true;
     }
-    public Book()
+    public Movie()
     {
       Id = Guid.NewGuid().ToString();
       Available = true;

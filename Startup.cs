@@ -28,6 +28,7 @@ namespace libraryApi
     {
       services.AddControllers();
       services.AddTransient<BookService>();
+      services.AddTransient<MovieService>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

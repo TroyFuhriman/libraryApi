@@ -8,16 +8,16 @@ namespace libraryApi.Controllers
 {
   [ApiController]
   [Route("api/[controller]")]
-  public class BooksController : ControllerBase
+  public class MoviesController : ControllerBase
   {
-    private readonly BookService _service;
-    public BooksController(BookService service)
+    private readonly MovieService _service;
+    public MoviesController(MovieService service)
     {
       _service = service;
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Book>> GetAll()
+    public ActionResult<IEnumerable<Movie>> GetAll()
     {
       try
       {
@@ -30,7 +30,7 @@ namespace libraryApi.Controllers
       }
     }
     [HttpGet("available")]
-    public ActionResult<IEnumerable<Book>> GetAvail()
+    public ActionResult<IEnumerable<Movie>> GetAvail()
     {
       try
       {
@@ -43,7 +43,7 @@ namespace libraryApi.Controllers
       }
     }
     [HttpGet("{id}")]
-    public ActionResult<Book> GetById(string id)
+    public ActionResult<Movie> GetById(string id)
     {
       try
       {
@@ -56,11 +56,11 @@ namespace libraryApi.Controllers
       }
     }
     [HttpPost]
-    public ActionResult<Book> Create([FromBody] Book newBook)
+    public ActionResult<Movie> Create([FromBody] Movie newMovie)
     {
       try
       {
-        return Ok(_service.Create(newBook));
+        return Ok(_service.Create(newMovie));
       }
       catch (Exception e)
       {
@@ -69,11 +69,11 @@ namespace libraryApi.Controllers
       }
     }
     [HttpPut("{id}")]
-    public ActionResult<Book> Edit([FromBody] Book editBook, string id)
+    public ActionResult<Movie> Edit([FromBody] Movie editMovie, string id)
     {
       try
       {
-        return Ok(_service.Edit(editBook, id));
+        return Ok(_service.Edit(editMovie, id));
       }
       catch (Exception e)
       {
@@ -82,7 +82,7 @@ namespace libraryApi.Controllers
     }
 
     [HttpDelete("{id}")]
-    public ActionResult<Book> Delete(string id)
+    public ActionResult<Movie> Delete(string id)
     {
       try
       {
